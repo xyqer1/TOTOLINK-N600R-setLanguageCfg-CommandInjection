@@ -1,6 +1,6 @@
 # TOTOLINK-N600R-setLanguageCfg-CommandInjection
 
-﻿During my internship at Qi An Xin Tiangong Lab, I discovered a StackOverflow vulnerability in the TOTOLINK-N600R router.
+﻿During my internship at Qi An Xin Tiangong Lab, I discovered a  command injection vulnerability in the TOTOLINK-N600R router.
 
 By analyzing the cstecgi.cgi file in the cgi-bin directory, I found that the function at address 0x4159F8 contains a command injection vulnerability.
 
